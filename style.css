@@ -1,0 +1,42 @@
+body{
+  padding: 0;
+  margin: 0;
+  background-color: #75CFF0;
+  color: white;
+}
+#nav{
+  width: 100vw;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: larger;
+}
+
+#result{
+  width: 100vw;
+  height: 10vh;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  font-family: monospace;
+  justify-content: space-evenly;
+}
+
+.marker {
+    background: red;
+    background-size: cover;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    cursor: pointer;
+  }
+  .mapboxgl-popup {
+    max-width: 200px;
+  }
+  
+  .mapboxgl-popup-content {
+    text-align: center;
+    color: black;
+    font-family: 'Open Sans', sans-serif;
+  }
